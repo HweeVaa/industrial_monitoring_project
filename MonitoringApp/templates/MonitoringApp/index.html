@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Data Monitering Front Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <a class="navbar-brand" href="#">Monitoring System</a>
+    </nav>
+
+    <div>
+        <h4 class="workername">작업자 1</h4>
+        <table>
+            <th>체온</th>
+            <th>심박수</th>
+            <tr>
+                <td>36.5</td>
+                <td>100</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

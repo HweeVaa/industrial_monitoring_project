@@ -1,0 +1,34 @@
+body{
+    background: purple;
+}
+
+div{
+    border: 2px skyblue;
+    background-color: skyblue;
+    color:black;
+    margin: 15px;
+
+}
+
+.workername{
+    padding: 10px;
+    margin: 0px;
+    background-color: white;
+}
+
+table{
+    background-color: white;
+    text-align: center;
+}
+
+th{
+    border: 3px solid skyblue;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+td{
+    border: 3px solid skyblue;
+    padding: 5px;
+}
