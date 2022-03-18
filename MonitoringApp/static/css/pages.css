@@ -10,11 +10,18 @@ div{
 
 }
 
-.workername{
+#editbutton{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.workplace_header {
     padding: 10px;
     margin: 0px;
     background-color: white;
 }
+
 
 table{
     background-color: white;

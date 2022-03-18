@@ -1,5 +1,7 @@
 from time import time
 from django.db import models
+from django.contrib.auth.models import AbstractUser
+
 
 # Create your models here.
 
@@ -19,3 +21,11 @@ class temp_humid(models.Model):
     temp=models.FloatField(max_length=10)
     humid=models.FloatField(max_length=10)
     time = models.DateTimeField(max_length=20)
+
+
+
+class 아이디(AbstractUser):
+    pass   
+
+
+ 
